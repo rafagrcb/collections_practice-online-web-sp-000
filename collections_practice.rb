@@ -45,7 +45,8 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.collect do |
+  array.collect do |word|
+    if array[1] = "word"
 
 
   
