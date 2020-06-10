@@ -32,7 +32,16 @@ end
 
 def find_a(array)
   array.find_all do |word|
-    word[] == "a"
+    word[0] == "a"
+  end
+end
+
+def sum_array(array)
+  array.sum do 
+
+
+
+
   
   
   
