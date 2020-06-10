@@ -9,7 +9,6 @@ def sort_array_desc(array)
 end
 
 def swap_elements(array)
-  array.sort do |1, 2|
-    1 <=> 2
-  end
+  array[1], array[2] = array[2], array[1]
+  array
 end
